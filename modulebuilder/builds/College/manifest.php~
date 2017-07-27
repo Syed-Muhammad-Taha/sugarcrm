@@ -98,10 +98,4 @@ $installdefs = array (
       'language' => 'en_us',
     ),
   ),
-  'action_file_map' => array(
-     array(
-        'from' => '../../../modules/clg_Teacher/test.php',
-	'to_module' => 'clg_Teacher'
-     ),
-  ),
 );
