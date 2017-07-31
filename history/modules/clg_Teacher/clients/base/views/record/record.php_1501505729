@@ -172,13 +172,8 @@ array (
               1 => 'team_name',
               2 => 
               array (
-                'name' => 'tag',
-                'span' => 6,
-              ),
-              3 => 
-              array (
                 'name' => 'clg_student_clg_teacher_1_name',
-                'span' => 6,
+                'span' => 12,
               ),
             ),
           ),

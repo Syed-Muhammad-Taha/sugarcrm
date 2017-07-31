@@ -164,8 +164,6 @@ array (
             'columns' => 2,
             'labelsOnTop' => true,
             'placeholders' => true,
-            'newTab' => false,
-            'panelDefault' => 'expanded',
             'fields' => 
             array (
               0 => 'assigned_user_name',
@@ -190,8 +188,6 @@ array (
             'columns' => 2,
             'labelsOnTop' => true,
             'placeholders' => true,
-            'newTab' => false,
-            'panelDefault' => 'expanded',
             'fields' => 
             array (
               0 => 
@@ -249,10 +245,6 @@ array (
               ),
             ),
           ),
-        ),
-        'templateMeta' => 
-        array (
-          'useTabs' => false,
         ),
       ),
     ),
