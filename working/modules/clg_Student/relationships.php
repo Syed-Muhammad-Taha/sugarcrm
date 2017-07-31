@@ -10,6 +10,98 @@
  * Copyright (C) SugarCRM Inc. All rights reserved.
  */
 $relationships = array (
+  'clg_student_clg_course_1' => 
+  array (
+    'name' => 'clg_student_clg_course_1',
+    'true_relationship_type' => 'many-to-many',
+    'from_studio' => true,
+    'relationships' => 
+    array (
+      'clg_student_clg_course_1' => 
+      array (
+        'lhs_module' => 'clg_Student',
+        'lhs_table' => 'clg_student',
+        'lhs_key' => 'id',
+        'rhs_module' => 'clg_Course',
+        'rhs_table' => 'clg_course',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'clg_student_clg_course_1_c',
+        'join_key_lhs' => 'clg_student_clg_course_1clg_student_ida',
+        'join_key_rhs' => 'clg_student_clg_course_1clg_course_idb',
+      ),
+    ),
+    'table' => 'clg_student_clg_course_1_c',
+    'fields' => 
+    array (
+      'id' => 
+      array (
+        'name' => 'id',
+        'type' => 'id',
+      ),
+      'date_modified' => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      'deleted' => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'default' => 0,
+      ),
+      'clg_student_clg_course_1clg_student_ida' => 
+      array (
+        'name' => 'clg_student_clg_course_1clg_student_ida',
+        'type' => 'id',
+      ),
+      'clg_student_clg_course_1clg_course_idb' => 
+      array (
+        'name' => 'clg_student_clg_course_1clg_course_idb',
+        'type' => 'id',
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'clg_student_clg_course_1spk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'clg_student_clg_course_1_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'clg_student_clg_course_1clg_student_ida',
+          1 => 'clg_student_clg_course_1clg_course_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'clg_Student',
+    'lhs_table' => 'clg_student',
+    'lhs_key' => 'id',
+    'rhs_module' => 'clg_Course',
+    'rhs_table' => 'clg_course',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'clg_student_clg_course_1_c',
+    'join_key_lhs' => 'clg_student_clg_course_1clg_student_ida',
+    'join_key_rhs' => 'clg_student_clg_course_1clg_course_idb',
+    'readonly' => true,
+    'relationship_name' => 'clg_student_clg_course_1',
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => 'default',
+    'is_custom' => true,
+    'deleted' => false,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
   'clg_student_modified_user' => 
   array (
     'name' => 'clg_student_modified_user',
@@ -196,21 +288,20 @@ $relationships = array (
     'is_custom' => false,
     'from_studio' => false,
   ),
-  'clg_student_clg_course_1' => 
+  'clg_student_clg_teacher_1' => 
   array (
-    'rhs_label' => 'Courses',
+    'rhs_label' => 'Teachers',
     'lhs_label' => 'Students',
-    'lhs_subpanel' => 'default',
     'rhs_subpanel' => 'default',
     'lhs_module' => 'clg_Student',
-    'rhs_module' => 'clg_Course',
-    'relationship_type' => 'many-to-many',
+    'rhs_module' => 'clg_Teacher',
+    'relationship_type' => 'one-to-many',
     'readonly' => true,
     'deleted' => false,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
     'from_studio' => true,
-    'relationship_name' => 'clg_student_clg_course_1',
+    'relationship_name' => 'clg_student_clg_teacher_1',
   ),
 );
