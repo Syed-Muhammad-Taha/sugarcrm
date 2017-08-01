@@ -20,3 +20,9 @@ $mod_strings['LBL_CLG_TEACHER_CLG_COURSE_1_FROM_CLG_TEACHER_TITLE'] = 'Teachers'
 $mod_strings['LBL_CLG_TEACHER_CLG_COURSE_1_FROM_CLG_COURSE_TITLE'] = 'Courses';
 
 ?>
+<?php
+// Merged from custom/Extension/modules/clg_Teacher/Ext/Language/en_us.Language.php
+
+$mod_strings['LBL_EXAMPLE_MODULE_LABEL'] = 'Example Module Label';
+
+?>

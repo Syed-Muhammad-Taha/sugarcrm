@@ -23,3 +23,9 @@ $app_list_strings['moduleListSingular']['clg_Teacher'] = 'Teacher';
 $app_list_strings['moduleListSingular']['clg_Course'] = 'Course';
 
 ?>
+<?php
+// Merged from custom/Extension/application/Ext/Language/en_us.Language.php
+
+$app_strings['LBL_EXAMPLE_LABEL'] = 'Example Application Label';
+
+?>
