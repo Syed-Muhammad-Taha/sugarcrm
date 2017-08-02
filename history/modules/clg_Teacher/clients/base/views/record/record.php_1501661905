@@ -180,14 +180,6 @@ array (
                 'name' => 'clg_student_clg_teacher_1_name',
                 'span' => 6,
               ),
-              4 => 
-              array (
-                'name' => 'test_c',
-                'label' => 'LBL_TEST',
-              ),
-              5 => 
-              array (
-              ),
             ),
           ),
           2 => 

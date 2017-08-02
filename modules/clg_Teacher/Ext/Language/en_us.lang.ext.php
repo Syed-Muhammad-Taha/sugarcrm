@@ -26,3 +26,10 @@ $mod_strings['LBL_CLG_TEACHER_CLG_COURSE_1_FROM_CLG_COURSE_TITLE'] = 'Courses';
 $mod_strings['LBL_EXAMPLE_MODULE_LABEL'] = 'Example Module Label';
 
 ?>
+<?php
+// Merged from custom/Extension/modules/clg_Teacher/Ext/Language/en_us.lang.php
+
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_TEST'] = 'test';
+
+?>

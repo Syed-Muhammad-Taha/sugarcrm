@@ -12,8 +12,8 @@ $dependencies['clg_Teachers']['require_date_modified'] = array(
             'name' => 'SetRequired', //Action type
             //The parameters passed in depend on the action type
             'params' => array(
-                'target' => 'Tags',
-                'label'  => 'LBL_TAGS', //normally <field>_label
+                'target' => 'test',
+                'label'  => 'LBL_TEST', //normally <field>_label
                 'value' => 'equal($description, "Closed")', //Formula
             ),
         ),
