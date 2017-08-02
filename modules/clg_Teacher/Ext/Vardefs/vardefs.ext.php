@@ -63,3 +63,10 @@ $dictionary["clg_Teacher"]["fields"]["clg_student_clg_teacher_1clg_student_ida"]
 );
 
 ?>
+<?php
+// Merged from custom/Extension/modules/clg_Teacher/Ext/Vardefs/vardef.php
+
+$dictionary['clg_Teacher']['fields']['name']['required'] = false;
+$dictionary['clg_Teacher']['fields']['description']['required'] = true;
+
+?>

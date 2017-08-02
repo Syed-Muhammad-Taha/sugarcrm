@@ -11,3 +11,13 @@ $viewdefs['clg_Teacher']['base']['layout']['subpanels']['components'][] = array 
     'link' => 'clg_teacher_clg_course_1',
   ),
 );
+
+
+
+$viewdefs['clg_Teacher']['base']['layout']['subpanels']['components'][] = array(
+    'layout' => 'subpanel',
+    'label' => 'LBL_RELATIONSHI_TITLE',
+    'context' => array(
+        'link' => 'clg_teacher_clg_course_1',
+    )
+);
